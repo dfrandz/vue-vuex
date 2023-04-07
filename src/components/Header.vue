@@ -1,5 +1,5 @@
 <template>
-    <nav class="sticky px-4 py-4 flex justify-between items-center bg-white  dark:bg-gray-900">
+    <nav class="sticky top-0 z-30 px-4 py-4 flex justify-between items-center bg-white  dark:bg-gray-900">
 		<router-link :to="{name: 'home'}" class="flex items-center">
             <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Free Food</span>
